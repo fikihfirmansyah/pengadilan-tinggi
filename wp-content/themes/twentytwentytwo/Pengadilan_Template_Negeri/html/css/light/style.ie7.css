@@ -1,0 +1,136 @@
+/*top-section*/
+.top-section{width: 98.85%}
+.top-contact{width: 120px}
+
+/*header*/
+.header { zoom:expression(runtimeStyle.zoom=1,insertBefore(document.createElement('div'),firstChild).className='header-jpeg');}
+.header-jpeg{margin: auto}
+div.header{top: 42px}
+.header-image.border {background-clip: border-box;   background-origin: border-box;    border: 5px solid #202020;}
+.slidetabs{ position: absolute; bottom: 0; margin-left: -170px; margin-bottom: -17px !important}
+.header-shadow{z-index: -100}
+
+/*nav*/
+.nav.bar {zoom:expression(runtimeStyle.zoom=1,insertBefore(document.createElement('section'),firstChild).className='nav-png');}
+#menu ul{margin-left: -3px !important}
+#menu ul ul {margin-left: -4px !important}
+
+/*breadcrumbs*/
+#breadcrumbs{margin-top: 50px}
+
+/*spotlight*/
+.spotlight{min-height: 110px; margin-bottom: 0; }
+.tagline{float: left; width: 65%}
+.spot-action{float: right}
+
+/*layout*/
+.content-layout, .content-layout-row, .layout-cell {display: block;   zoom: 1;}
+.layout-cell{position:relative;   float: left;   clear: right;}
+ul.display {	float: left;	width: 630px;}
+
+/* Start Box */
+.box { zoom:expression(runtimeStyle.zoom=1,function(e){for(var i=0;i<e.length;i++)insertBefore(document.createElement('div'),firstChild).className='box-'+e[ i]}('br,bl,cr,cl,tr,tl'.split(',')));}
+.box-body { zoom:1;}
+.box-tl, .box-tr, .box-cl, .box-cr, .box-bl, .box-br { position:absolute;   display:block;   top:0;   bottom:0;   background-repeat: no-repeat;}
+.box-tl,.box-bl,.box-cl { left:0;}
+.box-tr,.box-br,.box-cr { right:0;}
+.box-cl, .box-cr { background-repeat:repeat-y;}
+.box-tl { background-position: top left;   z-index:-3;}
+.box-tr { background-position: top right;   z-index:-3;}
+.box-cl {background-position: center left;   z-index:-3;}
+.box-cr {background-position: center right;  z-index:-3;}
+.box-bl {background-position: bottom left;   z-index:-3;}
+.box-br {background-position: bottom right;   z-index:-3;}
+.box .box-tl,.box .box-tr,.box .box-cl,.box .box-cr,.box .box-bl,.box .box-br{z-index:-2;}
+.box .box .box-tl,.box .box .box-tr,.box .box .box-cl,.box .box .box-cr,.box .box .box-bl,.box .box .box-br{   z-index:-1;}
+/* End Box */
+
+.sheet>.box-tl, .sheet>.box-tr{max-width:1000px;   margin-bottom: 0;   cursor:auto;   width: 1000px; }
+.sheet-body{margin-bottom: -13px !important; margin-top: 20px}
+.box {z-index: -100}
+/* Start Bar */
+.bar { zoom:expression(runtimeStyle.zoom=1,function(e){for(var i=0;i<e.length;i++)insertBefore(document.createElement('div'),firstChild).className='bar-'+e[ i]}('r,l'.split(',')));}
+.bar-l, .bar-r {position:absolute;   z-index:-1;   top:0;   bottom:0;   content:' ';   background-repeat:repeat-y;}
+.bar-l {  left:0;   background-position: top left;}
+.bar-r { right:0;   background-position: top right;}
+/* End Bar */
+
+.postheadericons .comment {margin-left: -63px}
+
+
+hr{border: 1px dashed #c0c0c0; height: 1px}
+.css-panes div{width: 90% !important}
+.slogan p{overflow: visible; height: 70px; line-height: 200%; padding-top: 5px}
+#accordion {position: relative; margin-top: 10px !important; top: 10px}
+.blockheader .t{padding-top: 0; padding-bottom: 4px;}
+.blockcontent-body{padding-top: 20px}
+.showhide li section{border: 1px solid #CCCCCC;}
+input,select,textarea{border-top-color: #CCCCCC; border-bottom-color: #CCCCCC; border-top-width: 1px; border-bottom-width: 1px;} 
+.css-tabs li a.current{border-bottom-width: 0}
+.event-time {padding-top: 5px !important}
+.event-time .month{margin-top: 8px; padding: 0 10px}
+.postheadericons .event-time .month{margin-top: 3px; padding: 0 10px}
+.loading{margin-top: -9px !important}
+.blockheader .t{line-height: 170%}
+/*footer*/
+.footer { zoom:expression(runtimeStyle.zoom=1,function(e){for(var i=0;i<e.length;i++)insertBefore(document.createElement('div'),firstChild).className='footer-'+e[ i]}('r,l,t'.split(',')));}
+.footer-body {zoom: 1;   padding-right: 0;}
+.footer-t{ position: absolute;   z-index:-2;   left:0;   right:0;   top:0;   bottom:50px;   background-position:bottom left;}
+.componentheading{width: auto; padding-bottom: 15px; white-space: normal}
+.blockheader .t{width: auto; white-space: normal}
+.box{width: auto}
+	
+.footer-l, .footer-r {   position: absolute;   content:' ';   z-index:-1;   bottom:0;   height:50px;    bottom:47px;}
+.footer-l{   left:0;   right:0;   background-position: top left;}
+.footer-r{   right:0;   width:0;   background-position: top right;}
+.page-footer{bottom: -40px}
+.bottom-links{position: relative; bottom: -22px}
+.photo-gallery{width: 900px}
+
+
+/*pages*/
+.show-title{line-height: 90%}
+.form-subscr-field input, .form-subscr-field textarea{float: left; position: relative; left: -10px}
+.submit-contact input {float: left}
+.content-layout-row{z-index: 0}
+.dropcap,.dropcap-blue,.dropcap-red,.dropcap-green,.dropcap-purple,.dropcap-orange,.dropcap-brown,.dropcap-grey{font-size: 16px; }
+.header-image.border {background-clip: border-box;   background-origin: border-box;    border: 5px solid #202020;}
+h1.dotted{padding: 0  0 30px}
+ #panes-bottom, #menu li.nolink span, .important, .important-title, .ws_bullets .ws_bulframe,  .kwicks li .kwicks-caption, .kwicks li{behavior:url(css/PIE.htc)}
+.button, .csbutton, .csbutton-dark, .csbutton-grey, .csbutton-color, .showhide li, .showhide li section, .pic3d, .event-time, .block-number, .th, th, .postheadericons .author, .postheadericons .category, .page-navigate .page, .page-navigate .pages, .page-navigate .next-link,  .page-navigate .current, .page-navigate .next, .page-navigate .previous, .comment-post .reply, .actions .next, .actions .prev, h2.current, .content-box, .content-box-blue,.content-box-green,.content-box-orange,.content-box-yellow,.content-box-red,.content-box-gray,.content-box-transparent, .keypoint, .tip,.info,.warning,.fail, .highlight,.highlight-blue,.highlight-red,.highlight-green,.highlight-purple,.highlight-orange,.highlight-brown,.highlight-grey,.highlight-bold, .pic-polarid, .pic-round, .pic3d-dark, .pic-round-shadow, .pic-inset, .price-col, .slide-object iframe, .slide-object video, input,select,textarea, .tooltip,  #nav2,  .spot-action, .event-time .month, .bottom, .jspDrag, .postcontent .category a, #accordion h2, #accordion2 h2, .comment-post-admin, .blog-author, .accord1, .accord2, .ws-title div{ position:relative; behavior:url(css/PIE.htc);}
+.slider-action, #panes-top a.csbutton, .csbutton-dark, .csbutton-grey, .csbutton-color, .form-subscr-field input, .content-box-blue,  .important, .showhide li, #accordion h2, .showhide li section, .pic3d{-pie-poll:true; }
+#panes-bottom div{width: 93% !important;}
+.nivo-caption{ background: url('../../images/body/fade.png') repeat 0 0 transparent !important; border-color: #202020 !important;}
+#search_form a.csbutton{float: right; position: relative; top: -85px; }
+section.spot-bg{z-index: -2; position: relative}
+div.spotlight{z-index:-3}
+.kwicks li .kwicks-caption{float: left; }
+.sidebar2{height: 100%}
+.xx-large, .x-large{line-height: 150%}
+.bottom {background: #000}
+.ws_bullets .ws_bulframe{border: 5px solid #000000;}
+.pic3d, .pic3d-dark{border-width: 0 !important;}
+.pic3d-dark{box-shadow: none}
+ul.css-tabs li a.current{z-index: 0}
+#menu ul ul a:hover, #menu ul ul a.parent:hover{background: url('../../images/body/menu-h.png') no-repeat 0 0 transparent !important}
+#menu li.nolink span{background: url('../../images/body/menu-nolink.png') repeat-x 0 0 transparent !important; width: 185px !important}
+.img-zoom{background: none}
+.showhide li section{border: 1px solid #CCCCCC;}
+input,select,textarea{border-top-color: #CCCCCC; border-bottom-color: #CCCCCC; border-top-width: 1px; border-bottom-width: 1px;} 
+.comment-post-admin, .blog-author{border: 0 solid #CCCCCC;}
+.comment-post .response {position: relative; display: block; float: right }
+input.csbutton, input.csbutton-dark, input.csbutton-grey, input.csbutton-color, #submit_button { min-height: 20px;}
+#nav2{background-color: #F0F0F0}
+.icon span{left: 10px}
+/*tags  fallback*/
+.tag-body{background: url('../../images/widget/tag_b.png') repeat-x scroll 100% 0 transparent !important; margin-left: 5px}
+a.tag-body{ border: 0 none; height: 20px !important}
+.yellow.tag-body{border: 0 none !important}
+.tag-body { zoom:expression(runtimeStyle.zoom=1,insertBefore(document.createElement('div'),firstChild).className='tag-h');}
+.tag-h{background: url('../../images/widget/tag_h.png') no-repeat scroll 0 0 transparent !important; border: 0 none; height: 30px !important; width: 19px !important;  left: -33px !important; top: -4px !important; z-index: 100; position: relative}
+.tag{z-index: 100; position: relative; top: -30px; right: 0}
+.footer-overlay-bottom{background: url('../../images/body/footer-ov-bottom.png') repeat-x scroll 0 0 transparent !important;}
+.blog-pic {top: 10px}
+ul.showhide section{overflow: visible}
+
+.important, .important:hover{background: none;}

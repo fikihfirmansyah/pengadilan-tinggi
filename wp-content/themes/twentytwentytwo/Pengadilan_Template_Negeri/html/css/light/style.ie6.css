@@ -1,0 +1,145 @@
+/* begin Page */
+
+#page-background-glare
+{
+   display: none;
+}
+
+.cleared 
+{
+   width:1px;
+}
+
+/* Start Box */
+.box, .box-body {
+   zoom:1;
+}
+/* End Box */
+/* Start Bar */
+.bar{
+   zoom:1;
+}
+/* End Bar */
+
+/* end Page */
+
+/* begin Header */
+.header-jpeg
+{
+   position: absolute;
+   z-index:-1;
+   top: 0;
+   width:expression(parentNode.clientWidth - 2 * 1 + 'px');
+   left:1px;
+   height: 482px;
+   background-image: url('images/header.jpg');
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+/* end Header */
+
+/* begin Box, Sheet */
+.sheet {
+   background:#FFFFFF;
+}
+#page-background-top-texture, #page-background-middle-texture
+{
+   width: expression(document.body.clientWidth>1000?"100%":"1000px");
+}
+
+/* end Box, Sheet */
+
+/* begin Layout */
+.content-layout, .content-layout-row, .layout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.layout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+/* end Layout */
+
+
+/* begin Box, Block */
+.block {
+   background:#FFFFFF;
+}
+/* end Box, Block */
+
+/* begin BlockHeader */
+.blockheader {
+   background:#FFFFFF;
+}
+/* end BlockHeader */
+
+/* begin Box, BlockContent */
+.blockcontent {
+   background:#FFFFFF;
+}
+.blockcontent-body ul li
+{
+   height: 1%;
+   background: none;
+   behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+artGetStyleUrl()+"images/blockcontentbullets.png',sizingMethod='crop')");
+}
+
+/* end Box, BlockContent */
+
+
+/* begin Box, Post */
+.post {
+   background:#FFFFFF;
+}
+/* end Box, Post */
+
+/* begin PostIcons, PostHeaderIcons */
+.postheadericons span
+{
+   zoom: 1;
+}
+/* end PostIcons, PostHeaderIcons */
+
+/* begin PostBullets */
+.post ul li, .post ol ul li
+{
+   height: 1%;
+   background: none;
+   behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+artGetStyleUrl()+"images/postbullets.png',sizingMethod='crop')");
+   padding-left: 12px;
+   /* makes "ul li" not to align behind the image if they are in the same line */
+  overflow-x: visible;
+   overflow-y: hidden;
+}
+
+.post ul ol li
+{
+   background: none;
+   behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="");
+   padding-left: 0;
+   /* overrides overflow for "ul li" and sets the default value */
+  overflow: visible;
+}
+/* end PostBullets */
+
+
+/* begin Footer */
+.footer-body{
+   padding-right: 0;
+   zoom:1;
+}
+.footer{
+   zoom:1;
+   background:#202A2C;
+}
+
+/* end Footer */
+
+/* begin LayoutCell, content */
+.sidebar2 {
+   width: auto;
+}
+/* end LayoutCell, content */
