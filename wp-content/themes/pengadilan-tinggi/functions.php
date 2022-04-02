@@ -86,7 +86,7 @@ function pt_widget_areas()
         array(
             'before_title' => '',
             'after_title' => '',
-            'before_widget' => '<ul class="special-1"><li>',
+            'before_widget' => '<ul id="list"><li >',
             'after_widget' => '</li></ul>',
             'name' => 'Widget Front Page 1',
             'id' => 'sidebar-front-page-1',
@@ -114,6 +114,17 @@ function pt_widget_areas()
             'name' => 'Footer Front Page 2',
             'id' => 'sidebar-front-page-2',
             'description' => 'Footer Front Page 2'
+        ),
+    );
+    register_sidebar(
+        array(
+            'before_title' => '',
+            'after_title' => '',
+            'before_widget' => '',
+            'after_widget' => '',
+            'name' => 'Header 1',
+            'id' => 'widget-header-1',
+            'description' => 'Header 1'
         ),
     );
 }

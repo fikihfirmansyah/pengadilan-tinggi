@@ -1,4 +1,4 @@
-/*This file defines the css for common sections of the template 
+/*This file defines the css for common sections of the template
 NOTE: After choosing the font you like, delete the rest of them to reduce size of this file
 -----------------------------------------------------------------------------------------------------------------
 
@@ -9,10 +9,10 @@ To use google fonts go over to http://www.google.com/webfonts choose the fonts y
 
 @import url(http://fonts.googleapis.com/css?family=Neucha);
 @import url(http://fonts.googleapis.com/css?family=Rokkitt|Kameron);
- 
-@font-face option 
+
+@font-face option
  ---------------------------------
- 
+
 ----------------H-E-A-D-E-R---F-O-N-T-S-------------------*/
 
 /* font 1:  'OpenSansCondensedLight' */
@@ -78,7 +78,7 @@ To use google fonts go over to http://www.google.com/webfonts choose the fonts y
 }
 
 /*replace the font-family (in quotes) with one of the HEADER fonts above to change header font*/
-h1, h2, h3, h4, h5, h6, .componentheading, .contentheading, .feature-title, .blockheader .t, .colorblockheader .t, legend, .tour_now_title, .join_now_title, .spotlight-action, .edition-main, .price-tag, .blocknumber-t, .slogan-head, .showcase-title, .show-title, h1.show-title, h1.show-title a, h1.show-title a:link, h1.show-title a:visited, h1.show-title a:hover, h1.contact, .show-title, .blockheader .t, post h2.postheader, .post h2.postheader a, .post h2.postheader a:link, .post h2.postheader a:visited, .post h2.postheader a.visited, .post h2.postheader a:hover, .post h2.postheader a.hovered, span.dropcap, span.dropcap-blue, span.dropcap-red, span.dropcap-green, span.dropcap-purple, span.dropcap-orange, span.dropcap-brown, span.dropcap-grey, .nivo-caption p.nivo-title, .blog-comments .t, .respond .t, .event-time .date, .slogan p, .ws-title, .block-number .digit, ul.css-tabs a, #nav2 ul a, th, .th .title, .showcase-banner, .scripting, a.widget .title{  
+h1, h2, h3, h4, h5, h6, .componentheading, .contentheading, .feature-title, .blockheader .t, .colorblockheader .t, legend, .tour_now_title, .join_now_title, .spotlight-action, .edition-main, .price-tag, .blocknumber-t, .slogan-head, .showcase-title, .show-title, h1.show-title, h1.show-title a, h1.show-title a:link, h1.show-title a:visited, h1.show-title a:hover, h1.contact, .show-title, .blockheader .t, post h2.postheader, .post h2.postheader a, .post h2.postheader a:link, .post h2.postheader a:visited, .post h2.postheader a.visited, .post h2.postheader a:hover, .post h2.postheader a.hovered, span.dropcap, span.dropcap-blue, span.dropcap-red, span.dropcap-green, span.dropcap-purple, span.dropcap-orange, span.dropcap-brown, span.dropcap-grey, .nivo-caption p.nivo-title, .blog-comments .t, .respond .t, .event-time .date, .slogan p, .ws-title, .block-number .digit, ul.css-tabs a, #nav2 ul a, th, .th .title, .showcase-banner, .scripting, a.widget .title{
 
 font-family: 'Tahoma', Tahoma, Arial, Helvetica, Sans-Serif;  font-weight: normal;}
 
@@ -380,7 +380,7 @@ div span.icon {margin:10px 20px 10px 0}
 /* lava lamp */
 #menu li.back{height:62px;margin:0;padding:0;position:absolute;width:0;z-index:8;}
 #menu li.back .left{float:none;height:62px;left:0;margin:0;padding:0;position:relative;top:0;visibility:visible;width:auto;}
-#menu li.nolink span{-moz-border-radius:3px 3px 0 0;-ms-border-radius:3px 3px 0 0;-o-border-radius:3px 3px 0 0;-webkit-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;cursor:default;font-size: 12px !important;line-height: 26px !important;margin:1px 7px 5px 10px;padding: 1px 7px !important;text-shadow:1px 0 1px #000000;text-transform:uppercase; 
+#menu li.nolink span{-moz-border-radius:3px 3px 0 0;-ms-border-radius:3px 3px 0 0;-o-border-radius:3px 3px 0 0;-webkit-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;cursor:default;font-size: 12px !important;line-height: 26px !important;margin:1px 7px 5px 10px;padding: 1px 7px !important;text-shadow:1px 0 1px #000000;text-transform:uppercase;
 background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.39) 100%);
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.39)));
 background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.39) 100%);
@@ -728,7 +728,7 @@ background: linear-gradient(-45deg,  #f9f9f9 32%,#ffffff 100%);
 .pic3d, .pic3d-dark{padding:5px; border-width: 1px !important; border-style: solid; background:none; }
 .pic3d{	border-color:#ffffff !important; }
 .pic3d:hover{opacity: 0.6;}
- 
+
 .pic3d-dark{
 background: #000000; border-color: #0b0b0b !important;
 background: -moz-linear-gradient(top, #000000 0%, #0b0b0b 100%);
@@ -881,7 +881,7 @@ th,td,caption{font-weight:normal;  text-align: left !important;  vertical-align:
 .showhide li{padding:5px 10px;  border-width:1px;  border-style:solid;}
 
   /*kwicks slider*/
-.kwicks li .kwicks-caption  { 
+.kwicks li .kwicks-caption  {
     -moz-box-shadow: 0 1px 2px #FFFFFF inset, 0 0 3px #BABABA;
     -webkit-box-shadow: 0 1px 2px #FFFFFF inset, 0 0 3px #BABABA;
     -o-box-shadow: 0 1px 2px #FFFFFF inset, 0 0 3px #BABABA;
@@ -936,7 +936,7 @@ th,td,caption{font-weight:normal;  text-align: left !important;  vertical-align:
 .top-links a:hover {opacity: 0.6}
 .top-contact {font-size: 14px; padding: 7px 0 1px 10px; }
 .top-contact a{text-decoration: none; color: #C0C0C0}
-.top-member{background: url("../../images/widget/top-links.png") no-repeat scroll 91px 0 transparent; float: right;padding-right: 25px;  margin-top: -1px; cursor: pointer; z-index: 1000;} 
+.top-member{background: url("../../images/widget/top-links.png") no-repeat scroll 91px 0 transparent; float: right;padding-right: 25px;  margin-top: -1px; cursor: pointer; z-index: 1000;}
 /* end top links */
 
 /* begin Logo */
@@ -1467,7 +1467,7 @@ span.follow span.no-link{
     width: 50px;
 	}
 
-.twit-feed, .tweeter_widget{ 
+.twit-feed, .tweeter_widget{
     float: left;
 	font-family: georgia;
     font-size: 120%;
@@ -1476,7 +1476,7 @@ span.follow span.no-link{
     padding: 8px 20px;
 	width: 90%;
 	}
-	
+
 .tweeter_widget .loading {margin-top: 9px; line-height: 50px;}
 .twit-feed a:hover, .tweeter_widget a:hover{color: #FFFFFF}
 #twitter_update_list li{
@@ -1666,7 +1666,7 @@ div.contentWrap{height:441px; padding:13px;  overflow-y:auto}
 .nivo-box{display:block;  position:absolute;  z-index:5}
 /* Caption styles */
 
-.nivo-caption{  background-color: rgba(0, 0, 0, 0.5);    border-color: rgba(0, 0, 0, 0.5);    border-style: solid;    border-width: 0 1px;    bottom: 0;    color: #FFFFFF;    height: 100%;    opacity: 1;    padding: 0 30px 0 40px;    position: absolute;    right: 0;    text-shadow: none;    top: 0;    width: 26%;    z-index: 8; }  
+.nivo-caption{  background-color: rgba(0, 0, 0, 0.5);    border-color: rgba(0, 0, 0, 0.5);    border-style: solid;    border-width: 0 1px;    bottom: 0;    color: #FFFFFF;    height: 100%;    opacity: 1;    padding: 0 30px 0 40px;    position: absolute;    right: 0;    text-shadow: none;    top: 0;    width: 26%;    z-index: 8; }
 .nivo-caption p{line-height: 1.5em;    margin-left: -11px;    margin-top: 10px;    padding: 5px;}
 .nivo-caption p.nivo-title{ font-size: 34px; font-weight: normal; margin-left: -14px;    margin-top: 120px; text-shadow: 0 0 2px #000000;}
 .nivo-caption a{  display:inline !important}
@@ -1709,7 +1709,7 @@ background: none !important
 }
 .kwicks.horizontal li {margin-right: 5px; float: left;}
 .kwicks.vertical  li{	margin-bottom: 5px; }
-.kwicks li .kwicks-caption  { 
+.kwicks li .kwicks-caption  {
 -moz-border-radius: 0 5px 0 0;
 -webkit-border-radius: 0 5px 0 0;
 -o-border-radius: 0 5px 0 0;
@@ -1719,7 +1719,7 @@ bottom: 0;    left: 0;    line-height: 150%;    margin: 0;    padding: 18px;    
 .kwicks li .kwicks-caption:hover {opacity: 1}
 .kwicks li .kwicks-caption h3 { height: 10px;    margin: 0 0;	font-size: 24px}
 .kwicks li .kwicks-caption .csbutton, .kwicks li .kwicks-caption .csbutton-dark { float: right;  }
-  
+
 /*twitter*/
 .tweet,.query {	font: 120% Georgia, serif;	color: #404040;}
 .tweet_list {list-style: none;margin: 0;padding: 0;overflow-y: hidden;background-color: transparent;}
@@ -1736,7 +1736,7 @@ ul.tweet_list li{overflow-y: hidden;overflow-x: hidden;padding: 0.5em !important
 .showhide li{  margin: 15px 0;   padding: 0.25em 1em !important;}
 .showhide li .title{  cursor: pointer;    margin: 0;    padding: 5px 35px 8px;	background: url('../../images/widget/expand.png') 0 3px no-repeat scroll;}
 .showhide li span.grip{ background: url("../../images/body/dot.png") repeat scroll 0 0 transparent;    display: block;    float: right;    height: 25px;	position: relative;    top: 2px;    width: 15px;	cursor: move}
-.showhide li section { background: url("../../images/body/note.png") repeat-y scroll 0 0 transparent;   
+.showhide li section { background: url("../../images/body/note.png") repeat-y scroll 0 0 transparent;
 -webkit-border-radius: 3px;-moz-border-radius: 3px;-ms-border-radius: 3px;-o-border-radius: 3px;border-radius: 3px; -webkit-box-shadow: 0 0 3px #808080 inset, 0 0 1px #FFFFFF;
  -moz-box-shadow: 0 0 3px #808080 inset, 0 0 1px #FFFFFF; -ms-box-shadow: 0 0 3px #808080 inset, 0 0 1px #FFFFFF; -o-box-shadow: 0 0 3px #808080 inset, 0 0 1px #FFFFFF; box-shadow: 0 0 3px #808080 inset, 0 0 1px #FFFFFF;display: none;margin: 10px 13px 10px 45px;padding: 21px 45px 14px;}
 .showhide li section p{line-height: 1.65em; text-shadow: none}
@@ -1846,7 +1846,7 @@ background: linear-gradient(top,  #dedede 0%,#f7f7f7 100%);
 box-shadow:inset 0 1px 2px #FFFFFF,0 0 3px #E07A1E;
 border-color: #E99A53;
 }
-	
+
 /* active tab */
 ul.white-top a.current {
 background: #e5e5e5;
@@ -1860,7 +1860,7 @@ background: linear-gradient(top,  #e5e5e5 0%,#ffffff 80%);
 border: 1px solid #FFFFFF;
 z-index: 1;
 }
-	
+
 /* tab pane with background gradient */
 div.white-top div{
 /*min-height:200px;*/
@@ -1884,7 +1884,7 @@ float: left
 #nav2 ul {margin:0 auto;}
 #nav2 li {	background: url("../../images/body/block-div.png") repeat-y scroll 0 100% transparent;float:left;padding-left:1px;width:156px;	list-style-type:none;text-align:center;margin-top:0;	}
 #nav2 a{-moz-border-radius:0 0 5px 5px;-ms-border-radius:0 0 5px 5px;-o-border-radius:0 0 5px 5px;-webkit-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px;color:#333;display:block;font-size:18px;height:42px;padding:25px 0 15px;position:relative;text-decoration:none}
-#nav2 a.current {background:url(../../images/widget/down_large.jpg);}	
+#nav2 a.current {background:url(../../images/widget/down_large.jpg);}
 #nav2 a:hover {background-color: rgba(255, 255, 255, 0.4);}
 #nav2 img {margin:-6px -10px 0 16px;	padding:0;	display:block;	float: left;}
 #nav2 strong {	display:block;	font-size:13px;}
@@ -1921,7 +1921,7 @@ background: -ms-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%);
 background: linear-gradient(top,  #e5e5e5 0%,#ffffff 100%);
 -pie-background:linear-gradient(#e5e5e5,#ffffff);
 }
-	
+
 /* crossfading effect needs absolute positioning from the elements */
 #panes-bottom div{color:#444;display:none;left:20px;margin-right:25px;position:absolute;top:20px;}
 #panes-bottom h3{font-size:22px;font-weight:normal;margin:0 0 15px;}
@@ -1967,7 +1967,7 @@ border:1px solid #fff;
 -o-box-shadow: 0 0 2px #FFFFFF inset;
 box-shadow: 0 0 2px #FFFFFF inset;
 border-bottom:1px solid #DDDDDD;
-cursor:pointer;		
+cursor:pointer;
 }
 
 /* currently active header */
@@ -2140,7 +2140,7 @@ a.left:hover{
 -o-transition:all 0.3s linear;
 -ms-transition:all 0.3s linear;
 transition:all 0.3s linear;}
-  
+
  /*0.1*/
   ul.bullet-list li a, ul.bullet-list li a:hover{
   -moz-transition:all 0.1s ease-in 0;
@@ -2149,7 +2149,7 @@ transition:all 0.3s linear;}
   -ms-transition:all 0.1s ease-in 0;
   transition:all 0.1s ease-in 0
 }
-  
+
   /*0*/
   .normal:active, .csbutton:active,.normal:active, .csbutton-color:active, .csbutton-dark:active, .csbutton-grey:active{
   -moz-transition:all 0 linear;
@@ -2157,7 +2157,7 @@ transition:all 0.3s linear;}
   -o-transition:all 0 linear;
   -ms-transition:all 0 linear;
   transition:all 0 linear;}
-  
+
   /*color*/
   #top-date, .top-links, .top-contact, #top-date:hover, .top-links:hover, .top-contact:hover, .twit-feed a, .breadcrumbs.home a, .jspTrack{
   -moz-transition:color 0.3s ease-out;
@@ -2165,15 +2165,15 @@ transition:all 0.3s linear;}
   -o-transition:color 0.3s ease-out;
   -ms-transition:color 0.3s ease-out;
   transition:color 0.3s ease-out}
-  
+
   /*opacity*/
   .spotlight-action, .social a, .kwicks.horizontal li, .kwicks.horizontal li.active, .top-links a, .cards img, .customers img, .jspDrag, .kwicks li .kwicks-caption  {
   -webkit-transition:opacity 0.3s linear;
   -moz-transition:opacity 0.3s linear;
   -o-transition:opacity 0.3s linear;
   -ms-transition:opacity 0.3s linear;
-  transition:opacity 0.3s linear;} 
-  
+  transition:opacity 0.3s linear;}
+
   /*width*/
 .jspVerticalBar{
   -webkit-transition:width 0.3s linear;
@@ -2190,7 +2190,7 @@ transition:all 0.3s linear;}
   -o-border-radius:4px;
   border-radius:4px;
 }
-  
+
   /*2px*/
   .slider-action, .spot-action, .button,.csbutton, .csbutton-dark, .csbutton-grey, .csbutton-color, #accordion h2, #accordion2 h2, .date-fld{
     -moz-border-radius:2px;
@@ -2199,7 +2199,7 @@ transition:all 0.3s linear;}
   -o-border-radius:2px;
   border-radius:2px;
 }
- 
+
 /* Typography Styles */
 .postheadericons .comment{background: url("../../images/body/comment.png") repeat scroll 0 0 transparent;   float: right;    height: 34px;    margin: 60px -3px;    padding: 8px;
     position: absolute;    text-align: center;    width: 30px;}
@@ -2323,14 +2323,14 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 -moz-box-shadow: 0 0 20px #000000;
 -ms-box-shadow: 0 0 20px #000000;
 -o-box-shadow: 0 0 20px #000000;
-box-shadow: 0 0 20px #000000; 
+box-shadow: 0 0 20px #000000;
 border-radius: 10px;
 }
-#fullResImage{border: 1px solid #202020; 
--webkit-border-radius: 7px; 
--moz-border-radius: 7px; 
--ms-border-radius: 7px; 
--o-border-radius: 7px; 
+#fullResImage{border: 1px solid #202020;
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+-ms-border-radius: 7px;
+-o-border-radius: 7px;
 border-radius: 7px; }
 
 * html .pp_top,* html .pp_bottom{padding:0 20px}
@@ -2407,13 +2407,13 @@ div.header, .header-wrapper{width: 752px}
 
 
 /* ==|== print styles ======================================================= */
- 
+
 @media print {
-  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } 
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; }
   a, a:visited { text-decoration: underline; }
   a[href]:after { content: " (" attr(href) ")"; }
   abbr[title]:after { content: " (" attr(title) ")"; }
-  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; } 
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
   pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
   thead { display: table-header-group; }
   tr, img { page-break-inside: avoid; }

@@ -287,7 +287,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
    font-size: 27px;
 }
 
-.postcontent h2 a, .postcontent h2 a:link, .postcontent h2 a:hover, .postcontent h2 a:visited, .blockcontent h2 a, .blockcontent h2 a:link, .blockcontent h2 a:hover, .blockcontent h2 a:visited 
+.postcontent h2 a, .postcontent h2 a:link, .postcontent h2 a:hover, .postcontent h2 a:visited, .blockcontent h2 a, .blockcontent h2 a:link, .blockcontent h2 a:hover, .blockcontent h2 a:visited
 {
    font-size: 27px;
 }
@@ -306,7 +306,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
    font-size: 19px;
 }
 
-.postcontent h3 a, .postcontent h3 a:link, .postcontent h3 a:hover, .postcontent h3 a:visited, .blockcontent h3 a, .blockcontent h3 a:link, .blockcontent h3 a:hover, .blockcontent h3 a:visited 
+.postcontent h3 a, .postcontent h3 a:link, .postcontent h3 a:hover, .postcontent h3 a:visited, .blockcontent h3 a, .blockcontent h3 a:link, .blockcontent h3 a:hover, .blockcontent h3 a:visited
 {
    font-size: 19px;
 }
@@ -327,7 +327,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
    font-size: 16px;
 }
 
-.postcontent h4 a, .postcontent h4 a:link, .postcontent h4 a:hover, .postcontent h4 a:visited, .blockcontent h4 a, .blockcontent h4 a:link, .blockcontent h4 a:hover, .blockcontent h4 a:visited 
+.postcontent h4 a, .postcontent h4 a:link, .postcontent h4 a:hover, .postcontent h4 a:visited, .blockcontent h4 a, .blockcontent h4 a:link, .blockcontent h4 a:hover, .blockcontent h4 a:visited
 {
    font-size: 16px;
 }
@@ -345,7 +345,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
    font-size: 13px;
 }
 
-.postcontent h5 a, .postcontent h5 a:link, .postcontent h5 a:hover, .postcontent h5 a:visited, .blockcontent h5 a, .blockcontent h5 a:link, .blockcontent h5 a:hover, .blockcontent h5 a:visited 
+.postcontent h5 a, .postcontent h5 a:link, .postcontent h5 a:hover, .postcontent h5 a:visited, .blockcontent h5 a, .blockcontent h5 a:link, .blockcontent h5 a:hover, .blockcontent h5 a:visited
 {
    font-size: 13px;
 }
@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
    font-size: 11px;
 }
 
-.postcontent h6 a, .postcontent h6 a:link, .postcontent h6 a:hover, .postcontent h6 a:visited, .blockcontent h6 a, .blockcontent h6 a:link, .blockcontent h6 a:hover, .blockcontent h6 a:visited 
+.postcontent h6 a, .postcontent h6 a:link, .postcontent h6 a:hover, .postcontent h6 a:visited, .blockcontent h6 a, .blockcontent h6 a:link, .blockcontent h6 a:hover, .blockcontent h6 a:visited
 {
    font-size: 11px;
 }
@@ -531,31 +531,31 @@ table.position
 }
 /* End Bar */
 
-li h1, .postcontent li h1, .blockcontent-body li h1 
+li h1, .postcontent li h1, .blockcontent-body li h1
 {
    margin:1px;
-} 
-li h2, .postcontent li h2, .blockcontent-body li h2 
+}
+li h2, .postcontent li h2, .blockcontent-body li h2
 {
    margin:1px;
-} 
-li h3, .postcontent li h3, .blockcontent-body li h3 
+}
+li h3, .postcontent li h3, .blockcontent-body li h3
 {
    margin:1px;
-} 
-li h4, .postcontent li h4, .blockcontent-body li h4 
+}
+li h4, .postcontent li h4, .blockcontent-body li h4
 {
    margin:1px;
-} 
-li h5, .postcontent li h5, .blockcontent-body li h5 
+}
+li h5, .postcontent li h5, .blockcontent-body li h5
 {
    margin:1px;
-} 
-li h6, .postcontent li h6, .blockcontent-body li h6 
+}
+li h6, .postcontent li h6, .blockcontent-body li h6
 {
    margin:1px;
-} 
-li p, .postcontent li p, .blockcontent-body li p 
+}
+li p, .postcontent li p, .blockcontent-body li p
 {
    margin:1px;
 }
@@ -578,16 +578,16 @@ div.header
    top: 0;
    right: 0;
    left: 0;
-} 
+}
 
-.header-wrapper 
+.header-wrapper
 {
    position: relative;
    top:0;
    width:1440px;
    margin:0 auto;
 }
-.header-inner 
+.header-inner
 {
    position: relative;
    margin: 0 1px;
@@ -641,9 +641,9 @@ div.logo
    margin: 0;
    color: #FFFFFF !important;
 }
-.show-title a, 
-.show-title a:link, 
-.show-title a:visited, 
+.show-title a,
+.show-title a:link,
+.show-title a:visited,
 .show-title a:hover
 {
    font-size: 36px;
@@ -674,7 +674,7 @@ div.logo
    color: #FFFFFF !important;
 }
 
-#headline, #slogan 
+#headline, #slogan
 {
    display: block;
    min-width: 250px;
@@ -696,25 +696,25 @@ text-shadow: 0 1px 0 #202020
 .sheet
 {
    max-width:1440px;
-   margin-top: 360px;
+   margin-top: 400px;
    margin-bottom: 0;
    cursor:auto;
    width: 1440px;
 }
-.sheet-body 
+.sheet-body
 {
    padding:1px;
    padding-top:1px;
    padding-bottom:1px;
 }
-.sheet:before, .sheet:after 
+.sheet:before, .sheet:after
 {
    content: url('../../images/skins/crimson/sheet_t.png');
    font-size: 0;
    background-image: url('../../images/skins/crimson/sheet_b.png');
 }
 
-.sheet>.box-tl, .sheet>.box-tr{background: url('../../images/skins/crimson/sheet.png'); 
+.sheet>.box-tl, .sheet>.box-tr{background: url('../../images/skins/crimson/sheet.png');
 
 }
 
@@ -773,7 +773,7 @@ text-shadow: 0 1px 0 #202020
    max-width:998px;
    margin: 15px;
 }
-.block-body 
+.block-body
 {
    padding:0;
 }
@@ -810,7 +810,7 @@ div.block img
 
 .blockheader .t a,
 .blockheader .t a:link,
-.blockheader .t a:visited, 
+.blockheader .t a:visited,
 .blockheader .t a:hover
 {
    color: #A72A2A;
@@ -824,7 +824,7 @@ div.block img
 {
    max-width:998px;
 }
-.blockcontent-body 
+.blockcontent-body
 {
    padding:7px 0;
    color: #404040;
@@ -833,7 +833,7 @@ div.block img
 }
 .postcontent .blockcontent-body, aside .blockcontent-body{text-shadow: 0 1px 0 #FFFFFF;}
 .blockcontent-body table,
-.blockcontent-body li, 
+.blockcontent-body li,
 .blockcontent-body a,
 .blockcontent-body a:link,
 .blockcontent-body a:visited,
@@ -865,7 +865,7 @@ div.block img
    max-width:998px;
    margin: 5px;
 }
-.post-body 
+.post-body
 {
    padding:7px;
 }
@@ -903,8 +903,8 @@ a img
 
 .article th, .article td
 {
-   padding: 2px;
-   border: solid 1px #5C5C5C;
+   padding: 10px;
+   border: solid 0px #5C5C5C;
    vertical-align: top;
    text-align: left;
 }
@@ -951,8 +951,8 @@ pre
    font-size: 26px;
 }
 
-.postheader a, 
-.postheader a:link, 
+.postheader a,
+.postheader a:link,
 .postheader a:visited,
 .postheader a.visited,
 .postheader a:hover,
@@ -1180,7 +1180,7 @@ background: url('../../images/skins/crimson/spotlight.png') repeat-x scroll 100%
    text-shadow: 4px 4px 1px #000000;
 }
 
-.footer:before, .footer:after 
+.footer:before, .footer:after
 {
 	position: relative;
 	content: ' ';
@@ -1219,7 +1219,7 @@ background: url('../../images/skins/crimson/spotlight.png') repeat-x scroll 100%
 .footer-body a:link,
 .footer-body a:visited,
 .footer-body a:hover,
-.footer-body td, 
+.footer-body td,
 .footer-body th,
 .footer-body caption
 {
@@ -1273,11 +1273,11 @@ div.footer img
 }/* end Footer */
 
 /* begin PageFooter */
-.page-footer, 
+.page-footer,
 .page-footer a,
 .page-footer a:link,
 .page-footer a:visited,
-.page-footer a:hover, 
+.page-footer a:hover,
 .bottom-links a
 {
    letter-spacing: normal;
@@ -1306,7 +1306,7 @@ color: #FFFFFF
    text-decoration: none;
    color: #fff;
    width: 30%;
-   float: left;   
+   float: left;
 }
 
 .footer-overlay-bottom {
@@ -1320,7 +1320,7 @@ color: #FFFFFF
 }
 
 .bottom-links a {padding: 20px 15px; display: block; float: left; text-shadow: none !important; color: #FFF !important;
-	background: url("../../images/skins/crimson/menuseparator.png") no-repeat scroll 100% 50% transparent}	
+	background: url("../../images/skins/crimson/menuseparator.png") no-repeat scroll 100% 50% transparent}
 .bottom-links a:hover{color: #D45050 !important; text-shadow: 0 1px 0 #000 !important}
 /* end PageFooter */
 
@@ -1343,11 +1343,11 @@ color: #FFFFFF
 /* end LayoutCell, sidebar2 */
 
 .footer-body {
--webkit-box-shadow: 2px 1px 5px #000000; 
--moz-box-shadow: 2px 1px 5px #000000; 
--ms-box-shadow: 2px 1px 5px #000000; 
--o-box-shadow: 2px 1px 5px #000000; 
-box-shadow: 2px 1px 5px #000000; 
+-webkit-box-shadow: 2px 1px 5px #000000;
+-moz-box-shadow: 2px 1px 5px #000000;
+-ms-box-shadow: 2px 1px 5px #000000;
+-o-box-shadow: 2px 1px 5px #000000;
+box-shadow: 2px 1px 5px #000000;
 }
 
 /*menu skin and color */
@@ -1369,9 +1369,38 @@ _background: url(../../images/skins/crimson/submenu-pointer-hover.gif) no-repeat
 background-color: #240303;}
 #menu li.back .left {background: url(../../images/skins/crimson/selected-right-sub.png) repeat-x right 0;}
 #menu li div {
-    background: url(../../images/skins/crimson/drop-submenu.png) no-repeat -227px 0;
+    /* background: url(../../images/skins/crimson/drop-submenu.png) no-repeat -227px 0; */
     _background: url(../../images/skins/crimson/drop-submenu.gif) no-repeat -227px 0;  }
 #menu ul ul {
-    background: url(../../images/skins/crimson/drop-submenu.png) no-repeat 0 bottom;
-    _background: url(../../images/skins/crimson/drop-submenu.gif) no-repeat 0 bottom; }
+   background: url(../../images/skins/crimson/drop-submenu.png) no-repeat 0 bottom;
+   /* height: 75px; */
+   /* _background: url(../../images/skins/crimson/drop-submenu.gif) no-repeat 0 bottom; */
+   padding-top: 20px;
+   margin-top: 0px;
+}
 /*end menu skin*/
+
+
+.nav-menu li > a:after {
+    content: '\f502';
+}
+
+.nav-menu li > a:only-child:after {
+    content: "";
+}
+
+.nav-menu li li > a:after {
+    content: '\f501';
+    position: absolute;
+    right: 0;
+}
+
+.footer-utama {
+color: white;
+}
+
+.footer-utama a {
+color: white;
+}
+.tablepost {
+border: 0;}
