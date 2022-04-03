@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Header file for the Twenty Twenty WordPress default theme.
  *
@@ -9,179 +10,122 @@
  * @since Twenty Twenty 1.0
  */
 
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 
 <html class="no-js" <?php language_attributes(); ?>>
 
-	<head>
+<head>
 
-		<meta charset="<?php bloginfo( 'charset' ); ?>">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<meta charset="<?php bloginfo('charset'); ?>">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<?php wp_head(); ?>
 
-		<?php wp_head	(); ?>
+</head>
 
-	</head>
-
-	<body <?php body_class(); ?>>
-
+<body <?php body_class(); ?>>
+	<div id="container">
+		<!--begin Top section-->
+		<!--end Top section-->
+	</div>
+	<!-- <div id="main" role="main"> -->
+	<?php
+	wp_body_open();
+	?>
+	<div class="logo-img">
+		<!--begin logo -->
 		<?php
-		wp_body_open();
+		// Site title or logo.
+		twentytwenty_site_logo();
 		?>
 
-		<header id="site-header" class="header-footer-group">
+		<!-- <a href="index.html"><img src="./images/logo.png" alt="logo mahkamah agung website ramah difable" /></a> -->
+	</div>
+	<div class="top-overlay" style="display:block">
+		<!-- <p><a href="HTTP://	MAHKAMAHAGUNG.GO.ID"><img width="68" height="68" alt="penelusuran perkara" src="./front_image/cts.png" style="float:right;"></p><br> -->
 
-			<div class="header-inner section-inner">
+		<header>
+			<!--begin top main section -->
+			<section class="top-main">
+				<div class="top-overlay">
+					<div id="top-date"></div>
+				</div>
+				<div class="top-links" id="slide">
+			</section>
 
-				<div class="header-titles-wrapper">
+			<div class="header">
 
-					<?php
-
-					// Check whether the header search is activated in the customizer.
-					$enable_header_search = get_theme_mod( 'enable_header_search', true );
-
-					if ( true === $enable_header_search ) {
-
-						?>
-
-						<button class="toggle search-toggle mobile-search-toggle" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false">
-							<span class="toggle-inner">
-								<span class="toggle-icon">
-									<?php twentytwenty_the_theme_svg( 'search' ); ?>
-								</span>
-								<span class="toggle-text"><?php _ex( 'Search', 'toggle text', 'twentytwenty' ); ?></span>
-							</span>
-						</button><!-- .search-toggle -->
-
-					<?php } ?>
-
-					<div class="header-titles">
-
-						<?php
-							// Site title or logo.
-							twentytwenty_site_logo();
-
-							// Site description.
-							twentytwenty_site_description();
-						?>
-
-					</div><!-- .header-titles -->
-
-					<button class="toggle nav-toggle mobile-nav-toggle" data-toggle-target=".menu-modal"  data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
-						<span class="toggle-inner">
-							<span class="toggle-icon">
-								<?php twentytwenty_the_theme_svg( 'ellipsis' ); ?>
-							</span>
-							<span class="toggle-text"><?php _e( 'Menu', 'twentytwenty' ); ?></span>
-						</span>
-					</button><!-- .nav-toggle -->
-
-				</div><!-- .header-titles-wrapper -->
-
-				<div class="header-navigation-wrapper">
-
-					<?php
-					if ( has_nav_menu( 'primary' ) || ! has_nav_menu( 'expanded' ) ) {
-						?>
-
-							<nav class="primary-menu-wrapper" aria-label="<?php echo esc_attr_x( 'Horizontal', 'menu', 'twentytwenty' ); ?>">
-
-								<ul class="primary-menu reset-list-style">
-
-								<?php
-								if ( has_nav_menu( 'primary' ) ) {
-
-									wp_nav_menu(
-										array(
-											'container'  => '',
-											'items_wrap' => '%3$s',
-											'theme_location' => 'primary',
-										)
-									);
-
-								} elseif ( ! has_nav_menu( 'expanded' ) ) {
-
-									wp_list_pages(
-										array(
-											'match_menu_classes' => true,
-											'show_sub_menu_icons' => true,
-											'title_li' => false,
-											'walker'   => new TwentyTwenty_Walker_Page(),
-										)
-									);
-
-								}
-								?>
-
-								</ul>
-
-							</nav><!-- .primary-menu-wrapper -->
-
-						<?php
-					}
-
-					if ( true === $enable_header_search || has_nav_menu( 'expanded' ) ) {
-						?>
-
-						<div class="header-toggles hide-no-js">
-
-						<?php
-						if ( has_nav_menu( 'expanded' ) ) {
-							?>
-
-							<div class="toggle-wrapper nav-toggle-wrapper has-expanded-menu">
-
-								<button class="toggle nav-toggle desktop-nav-toggle" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
-									<span class="toggle-inner">
-										<span class="toggle-text"><?php _e( 'Menu', 'twentytwenty' ); ?></span>
-										<span class="toggle-icon">
-											<?php twentytwenty_the_theme_svg( 'ellipsis' ); ?>
-										</span>
-									</span>
-								</button><!-- .nav-toggle -->
-
-							</div><!-- .nav-toggle-wrapper -->
-
-							<?php
-						}
-
-						if ( true === $enable_header_search ) {
-							?>
-
-							<div class="toggle-wrapper search-toggle-wrapper">
-
-								<button class="toggle search-toggle desktop-search-toggle" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false">
-									<span class="toggle-inner">
-										<?php twentytwenty_the_theme_svg( 'search' ); ?>
-										<span class="toggle-text"><?php _ex( 'Search', 'toggle text', 'twentytwenty' ); ?></span>
-									</span>
-								</button><!-- .search-toggle -->
-
+				<!--begin bar nav section -->
+				<section class="bar nav">
+					<div class="nav-outer">
+						<div class="nav-wrapper">
+							<div class="nav-inner">
+								<nav id="menu" class="js-active" aria-label=" <?php echo esc_attr_x('Horizontal', 'menu', 'twentytwenty'); ?>">
+									<ul class="menu">
+										<?php
+										if (has_nav_menu('primary')) {
+											wp_nav_menu(
+												array(
+													'container'  => '',
+													'items_wrap' => '%3$s',
+													'theme_location' => 'primary',
+												)
+											);
+										} elseif (!has_nav_menu('expanded')) {
+											wp_list_pages(
+												array(
+													'match_menu_classes' => true,
+													'show_sub_menu_icons' => true,
+													'title_li' => false,
+												)
+											);
+										}
+										?>
+									</ul>
+								</nav><!-- .primary-menu-wrapper -->
 							</div>
+						</div>
+					</div>
+				</section>
+				<div class="cleared reset-box"></div>
 
-							<?php
-						}
-						?>
+				<!--begin header section -->
+				<section class="header-position">
+					<div class="header-wrapper">
+						<div class="cleared reset-box"></div>
+						<!-- jquery slider. To customize the slider functionality edit the custom.js file -->
+						<!-- <div class="images"> -->
+						<div style="padding-top: 92px;">
+							<?php add_revslider('Slider Utama'); ?>
+							<div class="header-shadow"></div>
+						</div>
+						<!-- </div> -->
+				</section>
+			</div>
+		</header>
+		<div class="cleared reset-box"></div>
 
-						</div><!-- .header-toggles -->
-						<?php
-					}
-					?>
+		<!--begin breadcrumb -->
 
-				</div><!-- .header-navigation-wrapper -->
-
-			</div><!-- .header-inner -->
-
-			<?php
-			// Output the search modal (if it is activated in the customizer).
-			if ( true === $enable_header_search ) {
-				get_template_part( 'template-parts/modal-search' );
-			}
-			?>
-
-		</header><!-- #site-header -->
-
-		<?php
-		// Output the menu modal.
-		get_template_part( 'template-parts/modal-menu' );
+		<section id="breadcrumbs" style="top: 90px;">
+			<div style="color:white">
+				<table style="margin-left: auto; margin-right: auto;">
+					<tr>
+						<td style="width: 10%; margin: 0px auto; padding:10px; background-color:#ff9900">
+							BERITA
+						</td>
+						<td style="width: 90%; margin: 0px auto; padding:5px; background-color: #872021; ">
+							<?php echo do_shortcode("[post-marguee]"); ?>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</section>
+		<!--begin content  layout section -->
+		<div class="box sheet" style="top:48px">
+			<div class="box-body sheet-body">
+				<div class="layout-wrapper">
+					<div class="content-layout">
+						<div class="content-layout-row">
