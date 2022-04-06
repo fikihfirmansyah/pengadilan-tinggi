@@ -1,15 +1,5 @@
 <div class="cleared"></div>
 <div id="comments" class="blog-comments">
-	<span class="t">
-		<?php
-		if (!have_comments()) {
-			echo "Leave a Comment";
-		} else {
-			echo get_comment_count(get_the_id())['total_comments'] . " Comments";
-		}
-		?>
-	</span>
-	<div class="cleared"></div>
 
 	<div class="comments">
 		<?php
@@ -21,19 +11,28 @@
 		)
 		?>
 	</div>
-
-	<div class="cleared"></div>
-
 	<div class="respond">
 		<?php
-		if (comments_open(){
+		if (comments_open() || pings_open()) {
+
+			if ($comments) {
+				echo '<hr class="styled-separator is-style-wide" aria-hidden="true" />';
+			}
+
 			comment_form(
 				array(
-					'class_form' => '',
-					'title_reply_before' => '<h2 id="reply-title" class="comment-reply-title">',
-					'title_reply_after' => '</h2>'
+					'class_form'         => 'section-inner thin max-percentage',
+					'title_reply_before' => '<h3 id="reply-title" class="comment-reply-title">',
+					'title_reply_after'  => '</h3>',
 				)
-			)})
+			);
+		} elseif (is_single()) {
+
+			if ($comments) {
+				echo '<hr class="styled-separator is-style-wide" aria-hidden="true" />';
+			}
+		}
+
 		?>
 	</div>
 	<div class="cleared"></div>
