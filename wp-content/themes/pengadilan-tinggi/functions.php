@@ -717,13 +717,13 @@ function pengadilantinggi_get_color_for_area($area = 'content', $context = 'text
 				'text'      => '#000000',
 				'accent'    => '#fff',
 				'secondary' => '#6d6d6d',
-				'borders'   => '#dcd7ca',
+				'borders'   => '#f0f0f0',
 			),
 			'header-footer' => array(
 				'text'      => '#000000',
 				'accent'    => '#872021',
 				'secondary' => '#6d6d6d',
-				'borders'   => '#dcd7ca',
+				'borders'   => '#f0f0f0',
 			),
 		)
 	);
@@ -847,9 +847,9 @@ function pengadilantinggi_get_elements_array()
 	 * This example returns ten words, then [...]
 	 * Manual excerpts will override this
 	 */
-	function ld_custom_excerpt_length($length)
+	function my_excerpt_length($length)
 	{
-		return 10;
+		return 80;
 	}
-	add_filter('excerpt_length', 'ld_custom_excerpt_length', 999);
+	add_filter('excerpt_length', 'my_excerpt_length');
 }

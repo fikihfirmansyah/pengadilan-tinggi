@@ -66,7 +66,7 @@ if (!function_exists('pengadilantinggi_get_customizer_css')) {
 		$secondary         = sanitize_hex_color(pengadilantinggi_get_color_for_area('content', 'secondary'));
 		$secondary_default = '#6d6d6d';
 		$borders           = sanitize_hex_color(pengadilantinggi_get_color_for_area('content', 'borders'));
-		$borders_default   = '#dcd7ca';
+		$borders_default   = '#f0f0f0';
 		$accent            = sanitize_hex_color(pengadilantinggi_get_color_for_area('content', 'accent'));
 		$accent_default    = '#872021';
 

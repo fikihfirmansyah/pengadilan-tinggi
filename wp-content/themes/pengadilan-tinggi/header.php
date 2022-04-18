@@ -22,6 +22,11 @@
 
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
+	<style>
+		.switcher {
+			float: right;
+		}
+	</style>
 
 </head>
 
@@ -57,7 +62,7 @@
 
 							</td>
 							<td style="width:50%; float:right;">
-								<?php echo do_shortcode('[gtranslate]'); ?>
+								<?php echo do_shortcode('[gtranslate]'); ?><br><br><br>
 								<a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri() . "/assets/images/W3C.png" ?>" width="100px" style="float:right" alt="logo mahkamah agung website ramah difable" /></a>
 							</td>
 						</tr>
@@ -135,7 +140,7 @@
 		</div>
 	</section>
 	<!--begin content  layout section -->
-	<div class="box sheet" style="top:48px">
+	<div class="box sheet" style="top:130px">
 		<div class="box-body sheet-body">
 			<div class="layout-wrapper">
 				<div class="content-layout">

@@ -1,9 +1,7 @@
   <style>
-      .postcontent {
-          color:
-      }
+
   </style>
-  <h2 class="postheader"><a href="<?php the_permalink() ?>    "><?php the_title() ?></a>
+  <h2 class="postheader" style="margin: 9px 18px;"><a href="<?php the_permalink() ?>    "><?php the_title() ?></a>
   </h2>
   <div class="blogheadericons">
       <div class="postheadericons">

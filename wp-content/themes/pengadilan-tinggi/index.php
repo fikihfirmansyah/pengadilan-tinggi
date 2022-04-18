@@ -58,12 +58,12 @@ get_header();
 	if ($archive_title || $archive_subtitle) {
 	?>
 
-		<header class="archive-header has-text-align-center header-footer-group">
+		<header class="archive-header has-text-align-center header-footer-group" style="padding-top: 40px;">
 
 			<div class="archive-header-inner section-inner medium">
 
 				<?php if ($archive_title) { ?>
-					<h1 class="archive-title"><?php echo wp_kses_post($archive_title); ?></h1>
+					<h1 class="archive-title" style="font-weight:bold"><?php echo wp_kses_post($archive_title); ?></h1>
 				<?php } ?>
 
 				<?php if ($archive_subtitle) { ?>
