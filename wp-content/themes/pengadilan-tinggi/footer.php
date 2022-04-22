@@ -14,7 +14,7 @@
 
 ?>
 <!--begin footer section -->
-<footer style="height:100%; margin-top:20px; color:white; background-color: #872021; ">
+<footer style="height:100%; color:white; background-color: #872021; ">
 	<?php
 	dynamic_sidebar('main-footer');
 	?>

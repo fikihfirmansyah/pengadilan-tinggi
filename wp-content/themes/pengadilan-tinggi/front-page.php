@@ -7,7 +7,7 @@ get_header(); ?>
 <!--begin main content section -->
 <div class="layout-cell content">
     <?php echo do_shortcode('[ess_grid alias="banner"][/ess_grid]'); ?>
-    <?php add_revslider('Galeri-Video'); ?>
+    <?php echo do_shortcode('[ess_grid alias="galeri-video"][/ess_grid]'); ?>
 
     <div class="blockheader">
         <div class="t"></div>
@@ -25,7 +25,7 @@ get_header(); ?>
                                     <tr>
                                         <td style="width:40%">
                                             <div class="blockheader">
-                                                <div class="t" style="font-weight: bold;">Berita PT Medan</div>
+                                                <div class="t" style="font-weight: bold; background: rgb(238,150,8); font-size:17px; background: linear-gradient(90deg, rgba(238,150,8,1) 0%, rgba(135,32,32,0) 100%);">Berita PT Medan</div>
                                             </div>
                                             <br>
 
@@ -46,6 +46,7 @@ get_header(); ?>
 
                                                     <div style="padding-right:10px">
                                                         <h3 style="line-height: 110%; font-size:14px; margin:5px 0 0px; font-weight:bold"><a href="<?php the_permalink(); ?>" style="line-height: 110%; font-size:14px; text-transform: uppercase; margin:5px 0 0px; font-weight:bold"><?php the_title(); ?></a></h3>
+                                                        <b><?php echo get_the_date('d M Y'); ?></b>
                                                         <?php echo get_the_post_thumbnail(get_the_ID(), 'medium') ?>
                                                         <p><?php the_excerpt(); ?></p>
                                                         <!-- <div class="event">
@@ -64,7 +65,7 @@ get_header(); ?>
                                             <table border="0" cellpadding="0" cellspacing="0" style="width:100%; padding:0%; margin:0%; border-width:0px;">
                                                 <tbody>
                                                     <div class="blockheader">
-                                                        <div class="t" style="font-weight: bold;">Pengumuman</div>
+                                                        <div class="t" style="font-weight: bold; background: rgb(238,150,8); font-size:17px; background: linear-gradient(90deg, rgba(238,150,8,1) 0%, rgba(135,32,32,0) 100%);">Pengumuman</div>
                                                     </div>
                                                     <br>
 
@@ -87,6 +88,7 @@ get_header(); ?>
                                                                 <td>
                                                                     <div style="padding-right:10px">
                                                                         <h3 style="line-height: 110%; font-size:14px; margin:5px 0 0px; font-weight:bold"><a href="<?php the_permalink(); ?>" style="line-height: 110%; font-size:14px; text-transform: uppercase; margin:5px 0 0px; font-weight:bold"><?php the_title(); ?></a></h3>
+                                                                        <b><?php echo get_the_date('d M Y'); ?></b>
                                                                         <a class=" csbutton-color" href="<?php the_permalink(); ?>">Lebih lanjut</a><br><br>
                                                                     </div>
 
@@ -102,7 +104,7 @@ get_header(); ?>
                                         </td>
                                         <td style="width:20%">
                                             <div class="blockheader">
-                                                <div class="t" style="font-weight: bold;">Kegiatan PT Medan</div>
+                                                <div class="t" style="font-weight: bold; background: rgb(238,150,8); font-size:17px; background: linear-gradient(90deg, rgba(238,150,8,1) 0%, rgba(135,32,32,0) 100%);">Kegiatan PT Medan</div>
                                             </div>
                                             <br>
 
@@ -123,6 +125,7 @@ get_header(); ?>
 
                                                     <div style="padding-right:10px">
                                                         <h3 style="line-height: 110%; font-size:14px; margin:5px 0 0px; font-weight:bold"><a href="<?php the_permalink(); ?>" style="line-height: 110%; font-size:14px; text-transform: uppercase; margin:5px 0 0px; font-weight:bold"><?php the_title(); ?></a></h3>
+                                                        <b><?php echo get_the_date('d M Y'); ?></b>
                                                         <?php echo get_the_post_thumbnail(get_the_ID(), 'medium') ?>
                                                         <p><?php the_excerpt(); ?></p>
                                                         <a class=" csbutton-color" href="<?php the_permalink(); ?>">Lebih lanjut</a><br><br>
@@ -156,6 +159,7 @@ get_header(); ?>
                                                                 <td>
                                                                     <div style="padding-right:10px">
                                                                         <h3 style="line-height: 110%; font-size:14px; margin:5px 0 0px; font-weight:bold"><a href="<?php the_permalink(); ?>" style="line-height: 110%; font-size:14px; text-transform: uppercase; margin:5px 0 0px; font-weight:bold"><?php the_title(); ?></a></h3>
+                                                                        <b><?php echo get_the_date('d M Y'); ?></b>
                                                                         <a class=" csbutton-color" href="<?php the_permalink(); ?>">Lebih lanjut</a><br><br>
                                                                     </div>
 
@@ -187,6 +191,7 @@ get_header(); ?>
 
                                                     <div style="padding-right:10px">
                                                         <h3 style="line-height: 110%; font-size:14px; margin:5px 0 0px; font-weight:bold"><a href="<?php the_permalink(); ?>" style="line-height: 110%; font-size:14px; text-transform: uppercase; margin:5px 0 0px; font-weight:bold"><?php the_title(); ?></a></h3>
+                                                        <b><?php echo get_the_date('d M Y'); ?></b>
                                                         <?php echo get_the_post_thumbnail(get_the_ID(), 'medium') ?>
                                                         <p><?php the_excerpt(); ?></p>
                                                         <a class=" csbutton-color" href="<?php the_permalink(); ?>">Lebih lanjut</a><br><br>
@@ -198,7 +203,7 @@ get_header(); ?>
                                         </td>
                                         <td style="width:20%">
                                             <div class="blockheader">
-                                                <div class="t" style="font-weight: bold;">Artikel Hukum</div>
+                                                <div class="t" style="font-weight: bold; background: rgb(238,150,8); font-size:17px; background: linear-gradient(90deg, rgba(238,150,8,1) 0%, rgba(135,32,32,0) 100%);">Artikel Hukum</div>
                                             </div>
                                             <br>
 
@@ -219,6 +224,7 @@ get_header(); ?>
 
                                                     <div style="padding-right:10px">
                                                         <h3 style="line-height: 110%; font-size:14px; margin:5px 0 0px; font-weight:bold"><a href="<?php the_permalink(); ?>" style="line-height: 110%; font-size:14px; text-transform: uppercase; margin:5px 0 0px; font-weight:bold"><?php the_title(); ?></a></h3>
+                                                        <b><?php echo get_the_date('d M Y'); ?></b>
                                                         <?php echo get_the_post_thumbnail(get_the_ID(), 'medium') ?>
                                                         <p><?php the_excerpt(); ?></p>
                                                         <a class=" csbutton-color" href="<?php the_permalink(); ?>">Lebih lanjut</a><br><br>
@@ -249,94 +255,16 @@ get_header(); ?>
             <div class="cleared"></div>
         </div>
     </div>
-    <article class="postcontent reasons">
-
-
-        <div class="widget-pos">
-            <div style="display: grid; grid-template-columns: 50% 50% ;">
-                <div class="block" style="margin:0 0 10px 10px">
-                    <div class="block-body">
-
-                        <div class="blockheader">
-                            <div class="t">Berita & Kegiatan</div>
-                        </div>
-
-                        <div class="blockcontent">
-                            <div class="blockcontent-body">
-                                <!-- block-content -->
-                                <ul class="bullet-1">
-                                    <?php
-                                    $args = array(
-                                        'post_type' => 'post',
-                                        'post_status' => 'publish',
-                                        'category_name' => 'berita',
-                                        'posts_per_page' => 10,
-                                    );
-                                    $arr_posts = new WP_Query($args);
-                                    if ($arr_posts->have_posts()) :
-                                        while ($arr_posts->have_posts()) :
-                                            $arr_posts->the_post();
-                                    ?>
-                                            <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-                                    <?php
-                                        endwhile;
-                                    endif;
-                                    ?>
-                                </ul>
-                                <div class="cleared"></div>
-                            </div>
-                        </div>
-                        <div class="cleared"></div>
-                    </div>
-                </div>
-                <div class="block" style="margin:0 0 10px 10px">
-                    <div class="block-body">
-
-                        <div class="blockheader">
-                            <div class="t">Pengumuman</div>
-                        </div>
-
-                        <div class="blockcontent">
-                            <div class="blockcontent-body">
-                                <!-- block-content -->
-                                <ul class="bullet-1">
-                                    <?php
-                                    $args = array(
-                                        'post_type' => 'post',
-                                        'post_status' => 'publish',
-                                        'category_name' => 'pengumuman',
-                                        'posts_per_page' => 10,
-                                    );
-                                    $arr_posts = new WP_Query($args);
-                                    if ($arr_posts->have_posts()) :
-                                        while ($arr_posts->have_posts()) :
-                                            $arr_posts->the_post();
-                                    ?>
-                                            <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-                                    <?php
-                                        endwhile;
-                                    endif;
-                                    ?>
-                                </ul>
-                                <div class="cleared"></div>
-                            </div>
-                        </div>
-                        <div class="cleared"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /article-content -->
-    </article>
     <table border="0" cellpadding="0" cellspacing="0" style="width:100%; border-width:0px;">
         <tbody>
             <tr>
                 <td style="width:50%;">
-                    <div class="componentheading">Aplikasi Eksternal</div>
+                    <div class="componentheading" style="font-weight: bold; background: rgb(238,150,8); font-size:17px; background: linear-gradient(90deg, rgba(238,150,8,1) 0%, rgba(135,32,32,0) 100%);">Aplikasi Eksternal</div>
                     <?php add_revslider('Slider-Aplikasi-Eksternal'); ?>
                 </td>
                 <td style="width:50%;">
-                    <div class="componentheading">Aplikasi Internal</div>
+                    <div class="componentheading" style="font-weight: bold; background: rgb(238,150,8); font-size:17px; background: linear-gradient(90deg, rgba(238,150,8,1) 0%, rgba(135,32,32,0) 100%);">Aplikasi Internal</div>
+
                     <?php add_revslider('Slider-Aplikasi-Internal'); ?>
                 </td>
             </tr>
@@ -345,6 +273,5 @@ get_header(); ?>
 
 </div>
 <?php get_sidebar(); ?>
-</div>
 </div>
 <?php get_footer(); ?>
